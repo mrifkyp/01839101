@@ -1,2 +1,106 @@
-/* OBFUSCATED BY SKYBYPASS */
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");*,html{margin-left:0;}[class~=card-body],.button-container,[class~=card],.container{display:flex;}.container{justify-content:center;}.container{gap:1.25pc;}.container{flex-wrap:wrap;}[class~=title]{font-size:35px;}[class~=title]{color:white;}*,html{margin-bottom:0;}html,*{margin-right:0;}*,html{margin-top:0;}*,html{padding-left:0;}[class~=title],footer,[class~=card-title]{text-align:center;}html{padding-bottom:0;}[class~=title]{padding-left:2.1875pc;}[class~=title]{padding-bottom:2.1875pc;}[class~=title]{padding-right:2.1875pc;}[class~=title]{padding-top:2.1875pc;}[class~=title],[class~=card-title]{font-weight:bold;}[class~=card]{background-color:rgba(203,203,203,.8);}[class~=card]{width:225pt;}html{padding-right:0;}footer,[class~=download-btn],[class~=status],[class~=card]{padding-left:1.25pc;}footer,[class~=card]{padding-bottom:1.25pc;}html{padding-top:0;}html{box-sizing:border-box;}[class~=download-btn],footer,[class~=status],[class~=card]{padding-right:1.25pc;}[class~=card],footer{padding-top:1.25pc;}[class~=card]{border-radius:.9375pc;}body{font-family:"Josefin Sans",sans-serif;}[class~=card]{box-shadow:rgba(0,0,0,.24) 0px .1875pc .083333333in;}body{background-color:#000;}body{background-image:url("./wl.jpg");}[class~=card-body],[class~=card]{flex-direction:column;}[class~=card],[class~=card-body]{align-items:center;}body{background-position:center;}body{background-size:cover;}body{background-repeat:no-repeat;}[class~=card],[class~=card-body]{gap:.15625in;}[class~=card]{transition:transform .3s;}body{min-height:100vh;}body{backdrop-filter:blur(5px);}footer{background-color:rgba(0,0,0,.8);}[class~=card-title]{color:black;}[class~=card-title]{font-size:20px;}footer{color:#878686;}.button-container{justify-content:space-between;}footer,.button-container{width:100%;}.button-container{padding-top:.625pc;}[class~=status],[class~=download-btn]{color:white;}[class~=status]{background-color:black;}[class~=status],[class~=download-btn]{padding-bottom:7.5pt;}[class~=card]:hover{transform:scale(1.05);}*{padding-bottom:0;}[class~=status],[class~=download-btn]{padding-top:7.5pt;}*{padding-right:0;}footer{box-shadow:0 -1.5pt .052083333in rgba(0,0,0,.5);}[class~=download-btn],[class~=status]{border-radius:5px;}[class~=status]{margin-right:.104166667in;}[class~=download-btn]{background-color:#007bff;}footer{margin-top:.104166667in;}[class~=download-btn]{border-left-width:medium;}[class~=download-btn]{border-bottom-width:medium;}[class~=download-btn]{border-right-width:medium;}[class~=download-btn]{border-top-width:medium;}*{padding-top:0;}[class~=download-btn]{border-left-style:none;}[class~=download-btn]{border-bottom-style:none;}[class~=download-btn]{border-right-style:none;}[class~=download-btn]{border-top-style:none;}[class~=download-btn]{border-left-color:currentColor;}[class~=download-btn]{border-bottom-color:currentColor;}[class~=download-btn]:hover{background-color:#2563eb;}*{box-sizing:border-box;}[class~=download-btn]{border-right-color:currentColor;}[class~=download-btn]{border-top-color:currentColor;}[class~=download-btn]{border-image:none;}[class~=download-btn]{cursor:pointer;}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #000; 
+  background-image: url("./wl.jpg"); 
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  min-height: 100vh; 
+  min-width: 100vw; 
+  height: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 35px;
+  font-weight: bold;
+}
+
+.card {
+  background-color: rgba(203, 203, 203, 0.8);
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.card-title {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.status {
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.download-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #2563eb;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(135, 134, 134);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
